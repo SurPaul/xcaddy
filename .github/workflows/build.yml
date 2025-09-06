@@ -41,5 +41,5 @@ jobs:
         with:
           context: ./restic
           push: true
-          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:restic
+          tags: ghcr.io/surpaul/xcaddy:restic
           labels: ${{ steps.meta.outputs.labels }}
